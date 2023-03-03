@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Heaven1</display-name>
+	 
+	 <!--  Servlet for financial manager Account Details-->
+	<servlet>
+		<servlet-name>fmcc</servlet-name>
+		<servlet-class>com.heaven1.FMservelet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fmcc</servlet-name>
+		<url-pattern>/show</url-pattern>
+	</servlet-mapping> 
+	
+	<!-- Retrieving category detaisl -->
+	
+	 <servlet>
+		<servlet-name>cName</servlet-name>
+		<servlet-class>com.heaven1.Catidservlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>cName</servlet-name>
+		<url-pattern>/toCheck</url-pattern>
+	</servlet-mapping>
+	
+		<!-- Servlet for inserting staff -->
+		
+	  <servlet>
+		<servlet-name>staffInsert</servlet-name>
+		<servlet-class>com.staffsalaries.Staffsalariesinsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>staffInsert</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping> 
+	
+	<!-- Servlet for retrieving staff -->
+	
+     	<servlet>
+		<servlet-name>RetrieveStaffsalaries</servlet-name>
+		<servlet-class>com.staffsalaries.Staffsalaryservelet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RetrieveStaffsalaries</servlet-name>
+		<url-pattern>/submit</url-pattern>
+	</servlet-mapping>
+	
+		
+	<!-- Servlet for retrieving game purchases -->
+	
+	   	<servlet>
+		<servlet-name>Retrievegamepurchases</servlet-name>
+		<servlet-class>com.gamepurchases.RetrievegamepurchasesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Retrievegamepurchases</servlet-name>
+		<url-pattern>/rgpData</url-pattern>
+	</servlet-mapping>
+	
+		<!-- Servlet for updating game status -->
+		
+	   	<servlet>
+		<servlet-name>Updategamestatus</servlet-name>
+		<servlet-class>com.gamepurchases.UpdategamepurchaseServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Updategamestatus</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Servlet for Inserting catID -->
+	
+	   	<servlet>
+		<servlet-name>InsertcatId</servlet-name>
+		<servlet-class>com.heaven1.CatidinsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsertcatId</servlet-name>
+		<url-pattern>/insertcid</url-pattern>
+	</servlet-mapping>
+	
+			<!-- Servlet for Deleting catID -->
+			
+	   	<servlet>
+		<servlet-name>DeletecatId</servlet-name>
+		<servlet-class>com.heaven1.DeleteCatidServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeletecatId</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Servlet for Login -->
+				
+	   	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>com.heaven1.loginservelet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+</web-app>
