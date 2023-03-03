@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+ /*Financialmanager_css*/
+ body {
+  height: 1000px;
+  background-image: url("Pictures/FM.jpg");
+  background-size:cover;
+  background-attachment:fixed
+}
+
+
+table,tr, td {
+
+ 
+  border: 1px solid #996633;
+  padding: 10px;
+  width: 50px;
+  height: 20px; 
+}
+td{
+	color : #339933;
+}
+
+h1{
+	text-align: center;
+	color:#339933;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	 text-decoration: underline overline;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: darkblue;
+  padding: 16px 32px;
+  text-decoration: underline overline;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+h2{
+	text-align: center;
+	color: darkblue;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	 text-decoration: underline overline;
+}
+
+label{
+	width: 320px;
+  padding: 10px;
+  border: 5px solid green;
+  margin: 0;
+  color: green;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+

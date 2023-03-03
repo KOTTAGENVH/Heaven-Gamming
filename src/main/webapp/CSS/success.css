@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+  body {
+  height: 3000px;
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    
+    background-size:cover;
+    background-attachment:fixed
+}
+
+img {
+  border-radius: 50%;
+}

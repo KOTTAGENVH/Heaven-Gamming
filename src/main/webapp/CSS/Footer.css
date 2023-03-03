@@ -1,0 +1,51 @@
+/*Footer css file*/
+.footerStaff {
+    background-color: #A856D8;
+    font-family: 'century gothic';
+    color: rgb(0, 0, 0);
+    height : 500px;
+    padding: 10px 10px 50px 10px;
+    margin-top: 70px;
+    text-align: center;
+    color:white;
+    border:15px soild black;
+}
+
+footer{
+    /* background-color: rgb(118, 34, 214); */
+    background-color: #4158cb;
+    font-family: 'century gothic';
+    color: rgb(0, 0, 0);
+    /* border-radius: 50px; */
+    height : 500px;
+    padding: 10px 10px 50px 10px;
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+    border:15px soild black;
+}
+.footMain{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.233);
+    /* justify-content: space-around; */
+    border-radius: 50px;
+    padding : 20px;
+}
+
+.leftFoot{
+    margin-right: 100px;
+    border-right: 5px solid black;
+    padding-right: 400px;
+}
+
+.rightFoot{
+    padding-left: 100px;
+
+}
+.rightFoot img{
+    border-radius: 30px;
+}
+
+.mainImg{
+    border-radius: 18px;
+}
